@@ -112,7 +112,7 @@ class JobCandidate extends Component{
     }
     SeeResume(resume){
         console.log(resume)
-        fetch(`http://localhost:4000/api/candidate/getSignedURL?resume=${resume.resume}`)
+        fetch(`https://rocky-woodland-82032.herokuapp.com/api/candidate/getSignedURL?resume=${resume.resume}`)
         .then(res => res.json())
         .then(data =>{
             window.open(data)

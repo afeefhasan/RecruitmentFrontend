@@ -46,7 +46,7 @@ const Cardlist = ({joblist}) => {
         }
          <div style={{width:"300px"}}className="mb-3 pb-2 mt-2 group mx-5 w-3/12 h-96 min-w-3/12  cursor-pointer mt-8 px-4 py-8 flex flex-col justify-center content-center bg-gray border-2 border-purple-400 rounded-lg  hover:bg-indigo-300 hover:shadow-lg hover:border-transparent ... transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">
                 
-                <img src="https://hackerresume.com/static/media/new-icon.a7d06690.svg" alt="Create new Resume" className="self-center "/>
+                
                 <div className="mt-2 py-3 px-7 bg-indigo-300 self-center rounded-lg  group-hover:bg-gray-50  ...">
                     <NavLink to="/createjob" className="text-gray-50 group-hover:text-indigo-300">
                     Create New

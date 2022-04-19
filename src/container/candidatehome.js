@@ -109,7 +109,7 @@ class HomeC extends Component{
       
         // Request made to the backend api
         // Send formData object
-        fetch("http://localhost:4000/api/candidate/upload",{
+        fetch("https://rocky-woodland-82032.herokuapp.com/api/candidate/upload",{
             method:'post',
             headers:{'Accept':'*/*','Connection':'keep-alive','Accept-Encoding' : 'gzip, deflate, br'},
             body:formData
