@@ -14,7 +14,7 @@ export default function HomeNav() {
   return (
     <Popover className="relative top-0 z-3 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 z-2 bg-gradient-to-r from-indigo-300 ...">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <div >
               <span className="sr-only">Workflow</span>
